@@ -21,8 +21,8 @@ const PhotoSlider = () => {
   const captions = [
     "Our first adventure together",
     "That magical sunset",
-    "When you made me laugh so hard",
     "Our perfect day",
+    "When you made me laugh so hard",
     "The moment I knew you were the one"
   ];
 

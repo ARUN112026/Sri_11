@@ -20,7 +20,7 @@ const AnimatedImageGrid: React.FC = () => {
       delay: 0.4
     },
     {
-       src: "https://res.cloudinary.com/dpw1lerip/image/upload/v1775832248/WhatsApp_Image_2026-04-10_at_7.26.53_PM_ylo74m.jpg",
+       src: "https://res.cloudinary.com/dpw1lerip/image/upload/v1775838299/WhatsApp_Image_2026-04-10_at_9.54.21_PM_yrpuld.jpg",
       caption: "You Are My Everything",
       delay: 0.6
     },

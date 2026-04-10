@@ -21,9 +21,9 @@ const Index = () => {
   useEffect(() => {
     // Auto-play background music
     const audio = new Audio();
-    audio.src = "https://www.soundjay.com/misc/sounds/romantic-music.mp3";
+    audio.src = "https://res.cloudinary.com/dpw1lerip/video/upload/v1775838038/WhatsApp_Audio_2026-04-10_at_9.49.46_PM_xwdyug.m4a";
     audio.loop = true;
-    audio.volume = 0.3;
+    audio.volume = 0.6;
     
     // Try to play music (modern browsers may block autoplay)
     const playMusic = async () => {
@@ -40,7 +40,7 @@ const Index = () => {
     return () => {
       audio.pause();
     };
-  }, []);
+  }, [musicPlaying]);
 
   const handleMusicToggle = () => {
     const audio = document.querySelector('audio');
@@ -49,6 +49,7 @@ const Index = () => {
         audio.pause();
       } else {
         audio.play();
+        
       }
       setMusicPlaying(!musicPlaying);
     }
